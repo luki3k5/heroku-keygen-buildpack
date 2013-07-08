@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-echo "-----> Installing the keygen"
+echo "-----> Installing the keygen (not really doing anything)" 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "Keygen installed"
+echo "Keygen installed (not really doing anything)" 
 exit 0
