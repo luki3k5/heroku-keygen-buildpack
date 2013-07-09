@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-echo "-----> Installing the keygen (not really doing anything)" 
-
+echo "-----> Installing the keygen" 
+cd $1
+curl http://faw-project.s3.amazonaws.com/download/keygen -s -O
+mkdir -p vendor/keygen/bin
+mv keygen vendor/keygen/bin/
